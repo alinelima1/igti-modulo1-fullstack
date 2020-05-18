@@ -1,9 +1,12 @@
+body {
+  margin: auto;
+  text-align: center;
+}
+
 #result {
-  width: 50px;
+  width: 20%;
   height: 50px;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
-  margin: 50px;
-  align-items: center;
+  border: 1px black solid;
+  margin: auto;
+  margin-top: 50px;
 }
