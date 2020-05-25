@@ -2,7 +2,7 @@
 
 ## Os alunos deverão desempenhar as seguintes atividades:
 
-- Na carga inicial da aplicação, obter os dados de: https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo (Links para um site externo.)
+- Na carga inicial da aplicação, obter os dados de: https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo 
 - Carregar os dados dos usuários em um array.
 - Permitir a filtragem de usuários através de um input com interação do usuário.
 - O usuário poderá filtrar dados quando digitar pelo menos um caractere no input.
