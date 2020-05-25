@@ -1,0 +1,27 @@
+body {
+  padding: 20px;
+}
+
+.title-page {
+  text-align: center;
+}
+
+.block {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-right: 50px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.user-data {
+  align-items: center;
+  display: flex;
+  margin: 20px;
+}

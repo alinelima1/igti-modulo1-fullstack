@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/app.js"></script>
+    <title>Desafio Prático Módulo 1</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="title-page">Pesquisa de Usuários</h1>
+      <div class="row">
+        <div class="input-field col s11">
+          <input id="input_text" type="text" />
+          <label class="active" for="input_text">Busca</label>
+        </div>
+        <div class="col s1">
+          <button class="waves-effect waves-light btn" disabled>Buscar</button>
+        </div>
+      </div>
+      <div class="row">
+        <div id="filtered-users" class="block col s6">
+          <h3 id="title-filtered-users">Nenhum usuário filtrado</h3>
+          <div id="tabUsers"></div>
+        </div>
+        <div class="block col s5">
+          <h3 id="statistics">Nada a ser exibido</h3>
+          <div id="tabStatistics"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
